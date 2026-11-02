@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#0f3d4a"/></linearGradient>
+<clipPath id="c"><rect x="32" y="32" width="960" height="960" rx="210"/></clipPath>
+<filter id="s" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024"><feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#000" flood-opacity=".45"/></filter>
+<radialGradient id="peg" cx=".35" cy=".3"><stop offset="0" stop-color="#fde6b0"/><stop offset="1" stop-color="#c8883f"/></radialGradient>
+</defs>
+<rect x="32" y="32" width="960" height="960" rx="210" fill="url(#bg)"/>
+<g clip-path="url(#c)" fill="none" stroke-linecap="round" filter="url(#s)">
+<path d="M250 330 L780 330 L330 760" stroke="#0b2530" stroke-width="124"/>
+<path d="M250 330 L780 330 L330 760" stroke="#f59e0b" stroke-width="96"/>
+<path d="M780 330 L250 700 L800 740" stroke="#0b2530" stroke-width="124"/>
+<path d="M780 330 L250 700 L800 740" stroke="#f472b6" stroke-width="96"/>
+<path d="M330 760 L800 740 L250 330" stroke="#0b2530" stroke-width="124"/>
+<path d="M330 760 L800 740 L250 330" stroke="#38bdf8" stroke-width="96"/>
+</g>
+<g filter="url(#s)" fill="url(#peg)" stroke="#7c4a1e" stroke-width="14">
+<circle cx="250" cy="330" r="72"/><circle cx="780" cy="330" r="72"/><circle cx="330" cy="760" r="72"/><circle cx="800" cy="740" r="72"/><circle cx="250" cy="700" r="0"/>
+</g>
+</svg>
